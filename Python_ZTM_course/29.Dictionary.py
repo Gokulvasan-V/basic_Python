@@ -8,7 +8,7 @@ dict_1 = {
 
 print(dict_1[123])
 print(dict_1[True])
-
+print(dict_1.items()) # it will show the (keys, values) in tuple format.
 
 """
 dictionary key always has to be immutable.
