@@ -1,4 +1,4 @@
-a= 'it's a python language' 
+a= 'it's a python language'
 #here python confusing which is string
 
 # in this case we fix
