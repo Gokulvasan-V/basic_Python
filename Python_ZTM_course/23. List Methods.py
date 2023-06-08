@@ -31,7 +31,7 @@ print('\n')
 basket.pop()
 print(basket)
 
-basket.pop(3) # here ew can give index value.
+basket.pop(3) # here we can give index value.
 print(basket)
 
 print('\n')
