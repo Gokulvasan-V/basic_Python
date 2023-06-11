@@ -14,7 +14,7 @@ print(bool(1))
 there's only two options.
 1) True  2) False
 
-we denote booleans as 'bool
+we denote booleans as 'bool'
 '''
 
 
