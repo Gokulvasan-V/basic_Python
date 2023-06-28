@@ -1,9 +1,9 @@
 
 class PlayerCharacter:
-    membership = True # Class Object Attribute
+    membership = True # Class Object Attribute (variable)
     def __init__(self, name,age):
         if (self.membership):
-            self.name = name # attribute
+            self.name = name # attribute (variable)
             self.age = age
 
     def run (self):

@@ -13,14 +13,21 @@ class Subject:
         self.english = english
         self.maths = maths
 
-    def marks(self): # Instance Method
+    def marks(self): # Instance Method (default method)
         total = self.tamil + self.english + self.maths
         return total
     
-    @classmethod # Class Method
+    @classmethod # Class Method using decorator
     def ClassMethod(cls): # here we need to define one parameter
         return cls.method
     
-    @staticmethod # Static Method
+    @staticmethod # Static Method using decorator
     def StaticMethd(): # here we don't need to pass parameter.
         method = "This is Static Method"
+        return method
+
+obj = Subject(95,96,85)
+print(obj.marks())
+print(obj.english)
+print(obj.ClassMethod())
+print(obj.StaticMethd())
