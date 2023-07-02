@@ -5,6 +5,12 @@ A module can also include runnable code. Grouping related code into a module mak
 It also makes the code logically organized.
 """
 
+"""
+Types of Modules:
+1) Built - in Modules --> Default python Files
+2) User defined Modules --> User created Files
+"""
+
 def test():
     print("This is from 'hello.py' file")
 
