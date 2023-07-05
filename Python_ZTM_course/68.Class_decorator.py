@@ -15,7 +15,7 @@ class PlayerCharacter:
     we would use something like static method where we don't care anything about the class state. 
     """
     @staticmethod
-    def adding_things2(num1, num2): # in '@classmethod' we must pass 'cls' as a parameter
+    def adding_things2(num1, num2): # in '@staticmethod' we didn't pass any parameter
         return num1 + num2
 
 player1 = PlayerCharacter('tom', 20)
@@ -25,3 +25,5 @@ print(player1.adding_things(5,7))
 # we can access
 print(PlayerCharacter.adding_things(8,9))
 
+# @staticmethod
+print(PlayerCharacter.adding_things2(8,8))
