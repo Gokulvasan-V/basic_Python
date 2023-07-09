@@ -2,7 +2,7 @@
     Type of methods
     1) Instance Method --> we denote 'self' parameter inside the method
     2) Class Method --> using decorator '@classmethod' without 'self' parameter.
-    3) Static Method --> # using decorator '@staticmethod' without 'self' parameter
+    3) Static Method --> using decorator '@staticmethod' without 'self' parameter
 """
 
 class Subject:
