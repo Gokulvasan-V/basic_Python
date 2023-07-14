@@ -56,9 +56,10 @@ employee_data = private_data()
 employee_data.personal("Gokulvasan V", 24, "Male")
 employee_data.company_detials("IT", "Salem")
 employee_data.private(50000, "Software Developer")
-
 print('\n')
+
+# Here, I'm accessing company_data class only
 company = company_data() # We cn access separately 'company' class 
 company.company_detials("GK group of Company", "Erode")
 company.personal("Master", 42, "Female")
-print.private(70000, "Master") # it will show error because we didn't inherite 'private' class in the 'company' class
+#company.private(70000, "Master") # it will show error because we didn't inherite 'private' class in the 'company' class
