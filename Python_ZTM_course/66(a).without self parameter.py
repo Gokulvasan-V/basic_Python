@@ -33,7 +33,7 @@ class person_1:
     name = ""
     age = 0
     gender = ""
-    def print_detials(self): # here we must give 'self' parameter
+    def print_detials(self): # here we must give 'self' parameter, 'self' simply reffers to object name.
         print("My Name is: ", c.name) # but here i didn't use 'self.name'
         print("My Age is : ", c.age)
         print("My Gender is: ", c.gender)
