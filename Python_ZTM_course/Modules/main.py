@@ -7,3 +7,7 @@ print('\n')
 print('\n')
 
 print(dir(hello)) # what are the Functions we have...?
+
+print('\n')
+
+hello.test_2()
